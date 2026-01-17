@@ -132,7 +132,7 @@ console.log(person1.name); // Mohsin
 person1.name = "Khan"; // sets new name
 console.log(person1.name); // Khan
 ```
-## 4. Inheritance
+## Inheritance
 
 **Inheritance** in JavaScript OOP allows a **child class/object** to inherit **properties and methods** from a **parent class/object**. This promotes **code reuse** and helps create **hierarchical relationships**.
 
@@ -188,7 +188,7 @@ dog.eat();   // Animal eats
 dog.sleep(); // Mammal sleeps
 dog.bark();  // Dog barks
 ```
-## 5. Polymorphism
+## Polymorphism
 
 **Polymorphism** is a core principle of OOP that allows the **same method or interface** to be used in **different ways** depending on the context.  
 
@@ -255,7 +255,7 @@ function add(a, b) {
 console.log(add(5));    // 10
 console.log(add(5, 3)); // 8
 ```
-## 6. Access Modifiers
+## Access Modifiers
 
 Access modifiers are keywords used in object-oriented programming to set the accessibility of class members (properties and methods). In JavaScript (ES6+), access modifiers include `public`, `private`, and `protected` (via convention or TypeScript).  
 
@@ -324,7 +324,7 @@ const admin = new Admin("Mohsin", "Admin");
 admin.showRole();      // ✅ Outputs: Admin
 console.log(admin._role); // ❌ Should not be accessed outside class (by convention)
 ```
-## 7. Prototype & Prototype Chain
+## Prototype & Prototype Chain
 
 In JavaScript, every object has a **prototype**, which is another object that it inherits properties and methods from. This forms a **prototype chain** used for property/method lookup.
 
@@ -368,7 +368,7 @@ console.log(person1.__proto__ === Person.prototype);        // true
 console.log(Person.prototype.__proto__ === Object.prototype); // true
 console.log(Object.prototype.__proto__);                   // null (end of chain)
 ```
-## 8. OOP MCQs in JavaScript
+## MCQs
 
 ### 1. Which of the following is **not a principle of OOP**?  
 a) Encapsulation  
